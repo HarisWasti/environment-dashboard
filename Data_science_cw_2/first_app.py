@@ -6,7 +6,8 @@ import matplotlib.pyplot as plt
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Load data
-data = pd.read_csv(enviroment.csv)
+data = pd.read_csv("environment.csv")
+
 
 # Set the title of the Streamlit app
 st.title("Environmental Damage")
